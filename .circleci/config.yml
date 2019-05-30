@@ -26,8 +26,18 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: yarn install
-      - run: yarn add percy-client
+#      - run: yarn install
+#      - run: yarn add percy-client
+
+      - run:
+          name: install dependencies
+          command: |
+            yarn install
+
+      - run:
+          name: Add Percy
+          command: |
+            percy snapshot _site
 
       - save_cache:
           paths:
