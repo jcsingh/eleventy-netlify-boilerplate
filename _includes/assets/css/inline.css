@@ -1,7 +1,8 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	--blue: blue;
+	/*--blue: blue;*/
+	--blue: green;
 }
 
 *, *:before, *:after {
