@@ -30,14 +30,14 @@ jobs:
 #      - run: yarn add percy-client
 
       - run:
-          name: install dependencies
+          name: Install Dependencies
           command: |
             yarn install
 
       - run:
           name: Add Percy
           command: |
-            percy snapshot _site
+            yarn add percy-client
 
       - save_cache:
           paths:
