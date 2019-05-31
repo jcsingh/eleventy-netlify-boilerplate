@@ -2,7 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	/*--blue: blue;*/
-	--blue: black;
+	--blue: green;
 }
 
 *, *:before, *:after {
@@ -58,7 +58,7 @@ main > article :first-child {
 }
 
 pre {
-	font-size: 140px;
+	font-size: 14px;
 	direction: ltr;
 	/*text-align: left;*/
 	text-align: center;
