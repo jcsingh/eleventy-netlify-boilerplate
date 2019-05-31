@@ -2,7 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	/*--blue: blue;*/
-	--blue: black;
+	--blue: green;
 }
 
 *, *:before, *:after {
@@ -20,8 +20,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	/*background-color: var(--turkey);*/
-	background-color: var(--header-color, blue);
+	background-color: var(--turkey);
 }
 
 main {
@@ -31,7 +30,8 @@ main {
 p,
 pre,
 code {
-	line-height: 1.5;
+	/*line-height: 10.5;*/
+	line-height: 1.25;
 }
 
 a[href],
