@@ -2,7 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	/*--blue: blue;*/
-	--blue: green;
+	--blue: black;
 }
 
 *, *:before, *:after {
@@ -30,8 +30,7 @@ main {
 p,
 pre,
 code {
-	/*line-height: 10.5;*/
-	line-height: 1.25;
+	line-height: 1.5;
 }
 
 a[href],
@@ -59,9 +58,10 @@ main > article :first-child {
 }
 
 pre {
-	font-size: 14px;
+	font-size: 140px;
 	direction: ltr;
-	text-align: left;
+	/*text-align: left;*/
+	text-align: center;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
