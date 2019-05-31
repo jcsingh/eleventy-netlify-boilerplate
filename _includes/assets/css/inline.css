@@ -1,7 +1,6 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	/*--blue: blue;*/
 	--blue: blue;
 }
 
@@ -162,7 +161,7 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
+  width: 50%;
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
@@ -177,7 +176,7 @@ textarea {
 button {
 	border: 1px solid var(--blue);
 	background-color: var(--blue);
-	color: var(--white);
+	color: var(--black);
 	cursor: pointer;
 }
 
