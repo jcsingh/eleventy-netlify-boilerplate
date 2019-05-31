@@ -2,7 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	/*--blue: blue;*/
-	--blue: blue;
+	--blue: green;
 }
 
 *, *:before, *:after {
@@ -71,7 +71,7 @@ pre {
 	-ms-hyphens: none;
 	hyphens: none;
 	padding: 1em;
-	margin: .5em 0;
+	margin: 1.5em 0;
 }
 
 ul {
